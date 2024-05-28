@@ -1,0 +1,162 @@
+/* ==========================
+Styles css for footer 
+========================== */
+
+.page-footer {
+    background-color: #bf9d8a !important;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    min-height: 55px;
+    position: fixed;
+    width: 100%;
+}
+
+/* ==========================
+ Styles css for form
+ ========================== */
+
+.container {
+    max-width: 80%;
+}
+
+.input-container {
+    margin-top: 10px;
+    align-items: center;
+    width: 100%;
+}
+
+.icon {
+    position: absolute;
+    color: rgb(116, 116, 116);
+    min-width: 50px;
+    padding-right: 10px;
+    align-self: center;
+    z-index: 999;
+    padding-left: 13px;
+}
+
+.input-field {
+    width: 100%;
+    padding-left: 30px;
+    outline: none;
+    border: 0.2px solid rgb(216, 216, 216);
+    text-decoration: underline;
+    border-radius: 5px;
+}
+input:focus {
+    outline: none;
+    border: 1px solid rgb(130, 130, 130);
+    text-decoration: underline;
+    box-shadow: 0 1px 6px 0 rgba(180, 180, 180, 0.5);
+}
+
+.button-rounded {
+    background-color: #75bf9c;
+    color: white;
+    min-height: 40px;
+    margin-top: 30px;
+}
+.button-end-rounded {
+    background-color: #a61b67;
+    color: white;
+    border-radius: 100%;
+}
+
+.button-save {
+    margin-top: 30px;
+    border-radius: 100px;
+    background-color: #a61b67;
+    color: white;
+    width: 30%;
+}
+
+.row-form {
+    margin-bottom: 60px;
+    margin-top: 50px;
+    align-items: start;
+}
+.input-button {
+    width: calc(100% - 42px) !important;
+}
+
+.bi-asterisk {
+    color: red;
+    font-size: 5px;
+}
+
+/* ==========================
+ Styles css for modal
+ ========================== */
+
+.buttons {
+    border-radius: 100px;
+    margin-left: 10px;
+}
+.modal-mask {
+    position: fixed;
+    z-index: 9998;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    transition: opacity 0.3s ease;
+}
+
+.modal-wrapper {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.modal-container {
+    text-align: left !important;
+    max-width: 38%;
+    margin: 0px auto;
+    background-color: #fff;
+    border-radius: 2px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.33);
+    transition: all 0.3s ease;
+    font-family: Helvetica;
+}
+
+.modal-body {
+    margin: 20px 0;
+}
+
+.modal-default-button {
+    float: right;
+}
+
+.modal-enter {
+    opacity: 0;
+}
+
+.modal-leave-active {
+    opacity: 0;
+}
+
+.modal-enter .modal-container,
+.modal-leave-active .modal-container {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+/* ==========================
+ fonts
+ ========================== */
+h1 {
+    font-family: Helvetica;
+}
+h2 {
+    font-family: Helvetica;
+}
+h3 {
+    font-family: Helvetica;
+}
+p {
+    font-family: Helvetica;
+}
